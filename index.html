@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal Window!!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Hello world! 👋</h1>
+      <p class="header-txt">
+        please, click the following button and see the results!
+      </p>
+    </header>
+
+    <!-- Three buttons -->
+    <button class="html">HTML</button>
+    <button class="css">CSS</button>
+    <button class="js">JavaScript</button>
+
+    <!-- HTML Modal  -->
+    <div class="html-modal hidden">
+      <button class="close-html-modal">&times;</button>
+      <h1>HTML! 🍤</h1>
+      <p>
+        <strong>HyperText Markup Language (HTML)</strong> is the standard markup
+        language for documents designed to be displayed in a web browser. It
+        defines the content and structure of web content. It is often assisted
+        by technologies such as
+        <strong> Cascading Style Sheets (CSS)</strong> and scripting languages
+        such as <strong>JavaScript</strong>. HTML describes the structure of a
+        web page semantically and originally included cues for its appearance.
+      </p>
+    </div>
+
+    <!-- CSS Modal  -->
+    <div class="css-modal hidden">
+      <button class="close-css-modal">&times;</button>
+      <h1>CSS! 💄</h1>
+      <p>
+        <strong>Cascading Style Sheets (CSS)</strong> is a style sheet language
+        used for specifying the presentation and styling of a document written
+        in HTML. CSS is designed to enable the separation of content and
+        presentation, including layout, colors, and fonts. This separation
+        improves content accessibility, provides more flexibility and controls
+        in the specification of presentation. <br />The name
+        <strong>cascading</strong> comes from the specified priority scheme to
+        determine which declaration applies if more than one declaration of a
+        property match a particular element.
+      </p>
+    </div>
+
+    <!-- JavaScript Modal -->
+    <div class="js-modal hidden">
+      <button class="close-js-modal">&times;</button>
+      <h1>JavaScript! 🧠</h1>
+      <p>
+        JavaScript; abbreviated as <strong>JS</strong>, is a programming
+        language and core technology of the Web, alongside HTML and CSS. 99% of
+        websites use JavaScript on the client side for webpage behavior. Web
+        browsers have a dedicated JavaScript engine that executes the client
+        code.
+        <br />
+        JavaScript is a high-level, often just-in-time compiled language that
+        conforms to the ECMAScript standard. It has dynamic typing,
+        prototype-based object-orientation, and first-class functions. It has
+        <strong>Application Programming Interfaces (APIs)</strong> for working
+        with text, dates, regular expressions, standard data structures, and the
+        <strong>Document Object Model (DOM)</strong>.
+      </p>
+    </div>
+
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
